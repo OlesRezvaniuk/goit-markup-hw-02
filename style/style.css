@@ -16,9 +16,10 @@
 
 body {
     color: var(--main-text-color);
-    font-family: 'roboto';
+    font-family: 'roboto' sans-serif;
     font-size: 14px;
     font-weight: 400;
+        line-height: 171%;
 }
 
 .list {
@@ -79,6 +80,7 @@ header>a {
     font-weight: 900;
     font-size: 44px;
     color: var(--white-text-color);
+    line-height: 136%;
 }
 
 .hero button {
@@ -94,6 +96,7 @@ header>a {
 .hero button:focus {
     background-color: var(--community-bg-color);
     color: var(--heavy-text-color);
+    cursor: pointer;
 }
 
 .section-title {
@@ -118,6 +121,7 @@ header>a {
     font-weight: 500;
 }
 
+
 /* ----------Main page - studio ---------- */
 
 
@@ -133,7 +137,7 @@ header>a {
 .button-action:hover,
 .button-action:focus {
     background-color: var(--action-text-color);
-    color: var(--footer-address-text-color);
+    color: var(--white-text-color);
     cursor: pointer;
 }
 
@@ -169,4 +173,9 @@ address a {
 
 address :first-child {
     color: var(--white-text-color);
+}
+
+address a:hover,
+address a:focus {
+    color: var(--action-text-color);
 }

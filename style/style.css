@@ -1,0 +1,172 @@
+/* fonts */
+/* Roboto =500 900 700 400 */
+/* Raleway = 700*/
+
+/* colors */
+:root {
+    --main-text-color: #757575;
+    --heavy-text-color: #212121;
+    --action-text-color: #2196F3;
+    --logo-text-color: #000000;
+    --white-text-color: #FFFFFF;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --community-bg-color: #F5F4FA;
+    --background-color: #2F303A;
+}
+
+body {
+    color: var(--main-text-color);
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.list {
+    list-style: none;
+}
+
+/* ---------------header------------------ */
+.header {
+    background-color: var(--white-text-color);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'raleway';
+    text-decoration: none;
+    color: var(--logo-text-color);
+}
+
+.logo-main {
+    color: var(--action-text-color);
+}
+
+/* header navigation */
+.header-nav a {
+    text-decoration: none;
+    color: var(--heavy-text-color);
+    font-weight: 500;
+}
+
+/* активна сторінка */
+.header-nav .community-active {
+    color: var(--action-text-color);
+}
+
+.action:hover,
+.action:focus {
+    color: var(--action-text-color);
+}
+
+/* header links */
+
+header>a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+/* ---------------header------------------ */
+
+/* ----------Main page - studio ---------- */
+
+.hero {
+    background-color: var(--background-color);
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    color: var(--white-text-color);
+}
+
+.hero button {
+    color: var(--white-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    background-color: var(--action-text-color);
+    border: none;
+    border-radius: 4px;
+}
+
+.hero button:hover,
+.hero button:focus {
+    background-color: var(--community-bg-color);
+    color: var(--heavy-text-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--heavy-text-color);
+}
+
+.features-title {
+    font-size: 0px;
+}
+
+.list-features h3 {
+    color: var(--heavy-text-color);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.team h3 {
+    color: var(--heavy-text-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* ----------Main page - studio ---------- */
+
+
+/* ------second page community------------ */
+
+.community-button {
+    background-color: var(--community-bg-color);
+    border: none;
+    border-radius: 4px;
+    color: var(--heavy-text-color);
+}
+
+.button-action:hover,
+.button-action:focus {
+    background-color: var(--action-text-color);
+    color: var(--footer-address-text-color);
+    cursor: pointer;
+}
+
+.community-photo-list h4 {
+    color: var(--heavy-text-color);
+    font-size: 18px;
+}
+
+.community-photo-list p {
+    font-size: 16px;
+}
+
+/* ------second page - community------------ */
+
+/* -------------footer-------------------- */
+
+footer {
+    background-color: var(--background-color);
+}
+
+address p {
+    color: var(--footer-address-text-color);
+    font-size: 14px;
+    font-style: normal;
+}
+
+address a {
+    color: var(--footer-text-color);
+    font-size: 14px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+address :first-child {
+    color: var(--white-text-color);
+}

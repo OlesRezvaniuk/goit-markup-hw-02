@@ -134,6 +134,10 @@ header>a {
     color: var(--heavy-text-color);
 }
 
+.button-title {
+    font-size: 0px;
+}
+
 .button-action:hover,
 .button-action:focus {
     background-color: var(--action-text-color);

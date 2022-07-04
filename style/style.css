@@ -44,7 +44,7 @@ body {
 }
 
 /* header navigation */
-.header-nav a {
+.header-nav .link {
     text-decoration: none;
     color: var(--heavy-text-color);
     font-weight: 500;
@@ -62,7 +62,7 @@ body {
 
 /* header links */
 
-header>a {
+.header-link {
     text-decoration: none;
     color: var(--main-text-color);
 }
@@ -75,7 +75,7 @@ header>a {
     background-color: var(--background-color);
 }
 
-.hero h1 {
+.hero .title {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
@@ -83,7 +83,7 @@ header>a {
     line-height: 1.36;
 }
 
-.hero button {
+.hero .button {
     color: var(--white-text-color);
     font-weight: 700;
     font-size: 16px;
@@ -92,10 +92,10 @@ header>a {
     border-radius: 4px;
 }
 
-.hero button:hover,
-.hero button:focus {
+.hero .button:hover,
+.hero .button:focus {
     background-color: var(--community-bg-color);
-    color: var(--heavy-text-color);
+    color: var(--action-text-color);
     cursor: pointer;
 }
 
@@ -109,13 +109,13 @@ header>a {
     font-size: 0px;
 }
 
-.list-features h3 {
+.list-features .features-title {
     color: var(--heavy-text-color);
     font-weight: 700;
     font-size: 14px;
 }
 
-.team h3 {
+.team .name {
     color: var(--heavy-text-color);
     font-size: 16px;
     font-weight: 500;
@@ -145,7 +145,7 @@ header>a {
     cursor: pointer;
 }
 
-.community-photo-list h4 {
+.example-list .photo-title {
     color: var(--heavy-text-color);
     font-size: 18px;
 }
@@ -158,28 +158,23 @@ header>a {
 
 /* -------------footer-------------------- */
 
-footer {
+.footer {
     background-color: var(--background-color);
 }
 
-address p {
-    color: var(--footer-address-text-color);
-    font-size: 14px;
-    font-style: normal;
-}
-
-address a {
+.footer-address .link {
     color: var(--footer-text-color);
     font-size: 14px;
     font-style: normal;
     text-decoration: none;
 }
 
-address :first-child {
+.footer-address .physical {
     color: var(--white-text-color);
+    text-decoration: none;
 }
 
-address a:hover,
-address a:focus {
+.footer-address .link:hover,
+.footer-address .link:focus {
     color: var(--action-text-color);
 }

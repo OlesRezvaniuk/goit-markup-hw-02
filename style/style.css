@@ -16,10 +16,10 @@
 
 body {
     color: var(--main-text-color);
-    font-family: 'roboto' sans-serif;
+    font-family: 'roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
-        line-height: 171%;
+    line-height: 1.71;
 }
 
 .list {
@@ -36,11 +36,11 @@ body {
     font-weight: 700;
     font-family: 'raleway';
     text-decoration: none;
-    color: var(--logo-text-color);
+    color: var(--action-text-color);
 }
 
 .logo-main {
-    color: var(--action-text-color);
+    color: var(--logo-text-color);
 }
 
 /* header navigation */
@@ -80,7 +80,7 @@ header>a {
     font-weight: 900;
     font-size: 44px;
     color: var(--white-text-color);
-    line-height: 136%;
+    line-height: 1.36;
 }
 
 .hero button {

@@ -90,6 +90,7 @@ body {
     background-color: var(--action-text-color);
     border: none;
     border-radius: 4px;
+    font-family: inherit;
 }
 
 .hero .button:hover,
@@ -113,6 +114,7 @@ body {
     color: var(--heavy-text-color);
     font-weight: 700;
     font-size: 14px;
+    text-transform: uppercase;
 }
 
 .team .name {
@@ -132,6 +134,13 @@ body {
     border: none;
     border-radius: 4px;
     color: var(--heavy-text-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .button-title {
@@ -146,12 +155,22 @@ body {
 }
 
 .example-list .photo-title {
-    color: var(--heavy-text-color);
+    font-weight: 700;
     font-size: 18px;
+    line-height: 2.0;
+
+    letter-spacing: 0.06em;
+
+    color: var(--heavy-text-color);
 }
 
-.community-photo-list p {
+.community-photo .info {
+    font-weight: 400;
     font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    
+    color: var(--main-text-color);
 }
 
 /* ------second page - community------------ */
@@ -162,16 +181,35 @@ body {
     background-color: var(--background-color);
 }
 
+.footer-main {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'raleway';
+    text-decoration: none;
+    color: var(--action-text-color);
+}
+
+.footer-logo-second {
+    color: var(--white-text-color);
+}
+
 .footer-address .link {
     color: var(--footer-text-color);
+    font-weight: 400;
     font-size: 14px;
+    line-height: 1.71;
     font-style: normal;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+
     text-decoration: none;
 }
 
-.footer-address .physical {
+.footer-address .physical-address {
     color: var(--white-text-color);
     text-decoration: none;
+    font-style: normal;
 }
 
 .footer-address .link:hover,

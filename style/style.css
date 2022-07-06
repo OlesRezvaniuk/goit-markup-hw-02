@@ -36,6 +36,7 @@ body {
     font-weight: 700;
     font-family: 'raleway';
     text-decoration: none;
+    letter-spacing: 0.03em;
     color: var(--action-text-color);
 }
 
@@ -48,6 +49,8 @@ body {
     text-decoration: none;
     color: var(--heavy-text-color);
     font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 /* активна сторінка */
@@ -65,6 +68,10 @@ body {
 .header-link {
     text-decoration: none;
     color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
 }
 
 /* ---------------header------------------ */
@@ -123,6 +130,11 @@ body {
     font-weight: 500;
 }
 
+.work-position {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+
 
 /* ----------Main page - studio ---------- */
 
@@ -164,7 +176,7 @@ body {
     color: var(--heavy-text-color);
 }
 
-.community-photo .info {
+.example-list .info {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
